@@ -1,0 +1,502 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  position -0.5968594910732247 -0.42905365422257535 16.98527042408008
+}
+TexturedBackground {
+}
+RectangleArena {
+  floorSize 10 10
+}
+TexturedBackgroundLight {
+}
+DEF Laberinto Solid {
+  translation 1.28862 0.654817 0.140254
+  rotation -0.0025754902978973823 0.002671230308971273 0.9999931156654838 -1.5881053071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 1.5 0.05 0.5
+      }
+    }
+  ]
+  name "solid(8)"
+}
+DEF Laberinto Solid {
+  translation 0.0660355 -2.95478 0.134289
+  rotation -0.0025754902978973823 0.002671230308971273 0.9999931156654838 -1.5881053071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.8 0.05 0.5
+      }
+    }
+  ]
+  name "solid(4)"
+}
+DEF Laberinto Solid {
+  translation 0.646423 2.26625 0.136589
+  rotation -0.0025754902978973823 0.002671230308971273 0.9999931156654838 -1.5881053071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 1.5 0.05 0.5
+      }
+    }
+  ]
+  name "solid(7)"
+}
+DEF Laberinto Solid {
+  translation -2.4118 -1.6418 0.120964
+  rotation -0.0053370587066748736 -0.29247992912357496 -0.9562567682710695 0.0180935
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 1 0.05 0.5
+      }
+    }
+  ]
+}
+DEF Laberinto Solid {
+  translation -3.05578 -0.130668 0.117326
+  rotation -0.0025754902978973823 0.002671230308971273 0.9999931156654838 -1.5881053071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 3 0.05 0.5
+      }
+    }
+  ]
+  name "solid(3)"
+}
+DEF Laberinto Solid {
+  translation -1.94957 -2.09979 0.123477
+  rotation -0.0025754902978973823 0.002671230308971273 0.9999931156654838 -1.5881053071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 1 0.05 0.5
+      }
+    }
+  ]
+  name "solid(1)"
+}
+DEF Laberinto Solid {
+  translation 0.104785 -0.715062 0.134157
+  rotation -0.0025754902978973823 0.002671230308971273 0.9999931156654838 -1.5881053071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 2 0.05 0.5
+      }
+    }
+  ]
+  name "solid(6)"
+}
+DEF Laberinto Solid {
+  translation -0.9186 -2.63769 0.129033
+  rotation -0.0053370587066748736 -0.29247992912357496 -0.9562567682710695 0.0180935
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 2 0.05 0.5
+      }
+    }
+  ]
+  name "solid(2)"
+}
+DEF Laberinto Solid {
+  translation 0.301623 1.41175 0.134902
+  rotation -0.0053370587066748736 -0.29247992912357496 -0.9562567682710695 0.0180935
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 2 0.05 0.5
+      }
+    }
+  ]
+  name "solid(5)"
+}
+DEF Laberinto Solid {
+  translation -1.18011 3.05783 0.126774
+  rotation -0.0053370587066748736 -0.29247992912357496 -0.9562567682710695 0.0180935
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 7 0.05 0.5
+      }
+    }
+  ]
+  name "solid(9)"
+}
+DEF Laberinto Solid {
+  translation -4.58811 -1.40402 0.109403
+  rotation 0.0025754802980313533 -0.002671220309110268 -0.9999931157179506 1.58811
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 5 0.05 0.5
+      }
+    }
+  ]
+  name "solid(11)"
+}
+DEF Laberinto Solid {
+  translation 2.2285 -0.511806 0.145343
+  rotation 0.0025754802980313533 -0.002671220309110268 -0.9999931157179506 1.58811
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 7 0.05 0.5
+      }
+    }
+  ]
+  name "solid(12)"
+}
+DEF Laberinto Solid {
+  translation -1.09337 -4.07499 0.128314
+  rotation -0.0053370587066748736 -0.29247992912357496 -0.9562567682710695 0.0180935
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 7 0.05 0.5
+      }
+    }
+  ]
+  name "solid(10)"
+}
+DEF Laberinto Solid {
+  translation -0.693532 -0.031466 0.129811
+  rotation -0.002575480000068308 0.0026712303090421206 0.9999931156920059 -1.5881053071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 3 0.05 0.5
+      }
+    }
+  ]
+  name "laberinto"
+}
+DEF Laberinto Solid {
+  translation 0.943245 -2.53999 0.138917
+  rotation -0.0025754902978973823 0.002671230308971273 0.9999931156654838 -1.5881053071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 3 0.05 0.5
+      }
+    }
+  ]
+  name "laberinto(1)"
+}
+Robot {
+  translation 1.10966 2.1243 0.0412255
+  rotation 0.02335500057228674 -0.001555600038118144 -0.9997260244971069 0.178175
+  children [
+    DEF gps GPS {
+      translation -0.05 -0.02 0.03
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Cylinder {
+            height 0.02
+            radius 0.02
+          }
+        }
+      ]
+      boundingObject Shape {
+        appearance PBRAppearance {
+        }
+        geometry Cylinder {
+          height 0.02
+          radius 0.02
+        }
+      }
+      physics Physics {
+      }
+    }
+    DEF lidar Lidar {
+      translation 0.07 -0.02 0.04
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Cylinder {
+            height 0.035
+            radius 0.035
+          }
+        }
+      ]
+      boundingObject Shape {
+        appearance PBRAppearance {
+        }
+        geometry Cylinder {
+          height 0.035
+          radius 0.035
+        }
+      }
+      physics Physics {
+      }
+      horizontalResolution 128
+      fieldOfView 3.14
+      verticalFieldOfView 0.1
+      numberOfLayers 2
+    }
+    DEF BODY Shape {
+      appearance PBRAppearance {
+        baseColor 0.917647 0.145098 0.145098
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.2 0.1 0.05
+      }
+    }
+    DEF WHEEL1 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 7797.024399547971
+        axis 0 1 0
+        anchor 0.05 0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel1"
+        }
+      ]
+      endPoint Solid {
+        translation 0.04940847984577964 0.06043224674532349 -0.0006888095028240125
+        rotation -0.9604555522546543 0.19850740530996464 -0.19524328971903837 4.650744895892755
+        children [
+          DEF WHEEL Shape {
+            appearance PBRAppearance {
+              baseColor 0.305882 0.898039 0.25098
+              roughness 1
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+              subdivision 24
+            }
+          }
+        ]
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    DEF WHEEL2 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 5504.3748035434355
+        axis 0 1 0
+        anchor 0.05 -0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel2"
+        }
+      ]
+      endPoint Solid {
+        translation 0.04999924927826325 -0.06000008469764562 2.089902710395145e-06
+        rotation -0.9772608685010614 -0.1499350428389174 0.1499355789178912 4.689385640738346
+        children [
+          USE WHEEL
+        ]
+        name "solid(1)"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    DEF WHEEL3 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 7797.024224020811
+        axis 0 1 0
+        anchor -0.05 0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel3"
+        }
+      ]
+      endPoint Solid {
+        translation -0.0500046403891546 0.060000084994313085 -1.616739996024256e-07
+        rotation 0.9596252503466995 -0.19889578967097074 0.1988965654509779 1.612000785048222
+        children [
+          USE WHEEL
+        ]
+        name "solid(2)"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    DEF WHEEL4 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 5504.374186416598
+        axis 0 1 0
+        anchor -0.05 -0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel4"
+        }
+      ]
+      endPoint Solid {
+        translation -0.05000096633268994 -0.05999991499841628 1.8673580011183137e-06
+        rotation -0.9773512326139046 -0.14964024637670467 0.14964078579184403 4.689478073718648
+        children [
+          USE WHEEL
+        ]
+        name "solid(3)"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    DEF DS_RIGHT DistanceSensor {
+      translation 0.1 -0.03 0
+      rotation 0 0 1 -0.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.184314 0.596078 0.847059
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds_right"
+    }
+    DEF DS_LEFT DistanceSensor {
+      translation 0.1 0.03 0
+      rotation 0 0 1 0.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.184314 0.596078 0.847059
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds_left"
+    }
+  ]
+  boundingObject USE BODY
+  physics Physics {
+    density -1
+    mass 1
+  }
+  controller "controlador"
+  window "<none>"
+}
+DEF Laberinto Solid {
+  translation -1.18 -0.59 0.08
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.9 0.05 0.6
+      }
+    }
+  ]
+  name "laberinto"
+}
+DEF Laberinto Solid {
+  translation 0.48 -1.74 0
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.9 0.05 0.6
+      }
+    }
+  ]
+  name "laberinto(2)"
+}
+DEF Laberinto Solid {
+  translation 1.09 -1.08 0
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.9 0.05 0.6
+      }
+    }
+  ]
+  name "laberinto(4)"
+}
+DEF Laberinto Solid {
+  translation 2.11 -2.15 0
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.9 0.05 0.6
+      }
+    }
+  ]
+  name "laberinto(5)"
+}
+DEF Laberinto Solid {
+  translation -1.85 0.59 0.09
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 2 0.05 0.6
+      }
+    }
+  ]
+  name "laberinto"
+}
